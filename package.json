@@ -12,7 +12,7 @@
     "telegraf": "^3.6.4"
   },
   "scripts": {
-    "deploy": "now",
+    "deploy": "now -e NODE_ENV=production",
     "lint": "standard",
     "start": "node -r dotenv/config src",
     "test": "npm run lint"
