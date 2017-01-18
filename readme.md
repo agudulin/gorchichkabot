@@ -4,15 +4,14 @@
 ### Development
 
 1. Create `.env` file with `BOT_TOKEN` variable
-```sh
-BOT_TOKEN=123456foobar
-```
+  ```sh
+  BOT_TOKEN=123456foobar
+  ```
 
 2. Then run the bot locally
-```sh
-yarn start
-```
-
+  ```sh
+  yarn start
+  ```
 
 ### License
 
