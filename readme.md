@@ -1,7 +1,7 @@
 ### gorchichka bot
 > simple telegram bot for [gorchichka](https://gorchichka.com)
 
-[![license](https://img.shields.io/npm/l/gorchichkabot.svg?style=flat-square)](https://github.com/agudulin/gorchichkabot/blob/master/license)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/agudulin/gorchichkabot/blob/master/license)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-lightgrey.svg?style=flat-square)](http://standardjs.com/)
 [![Managed by Yarn](https://img.shields.io/badge/managed%20by-Yarn-2C8EBB.svg?style=flat-square)](https://yarnpkg.com/)
 
