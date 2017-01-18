@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "gorchichkabot",
   "version": "0.0.0",
   "description": "a simple telegram bot",
@@ -11,9 +12,10 @@
     "telegraf": "^3.6.4"
   },
   "scripts": {
+    "deploy": "now",
     "lint": "standard",
     "start": "node -r dotenv/config src",
-    "deploy": "now"
+    "test": "npm run lint"
   },
   "devDependencies": {
     "standard": "^8.6.0"
