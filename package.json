@@ -1,0 +1,16 @@
+{
+  "name": "gorchichkabot",
+  "version": "0.0.0",
+  "description": "a simple telegram bot",
+  "main": "index.js",
+  "author": "Alexander Gudulin <alexandr.gudulin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "telegraf": "^3.6.4"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config src",
+    "deploy": "now"
+  }
+}
