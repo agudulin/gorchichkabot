@@ -10,7 +10,11 @@
     "telegraf": "^3.6.4"
   },
   "scripts": {
+    "lint": "standard",
     "start": "node -r dotenv/config src",
     "deploy": "now"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
   }
 }
