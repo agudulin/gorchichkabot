@@ -8,7 +8,7 @@ app.command('start', ctx => {
   ctx.reply('дратути!\n"так" или "ишо"?')
 })
 
-app.hears('так', ctx => ctx.reply(getQuote()))
-app.hears('ишо', ctx => ctx.reply(getQuote()))
+app.hears(/так/i, ctx => ctx.reply(getQuote()))
+app.hears(/ишо/i, ctx => ctx.reply(getQuote()))
 
 app.startPolling()
