@@ -1,4 +1,7 @@
-### gorchichka bot
+<h1 align='center'>
+<a href='https://telegram.me/gorchichkabot'><img src='./logo.png' width='250px'></a>
+</h1>
+
 > simple telegram bot for [gorchichka](https://gorchichka.com)
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/agudulin/gorchichkabot/blob/master/license)
