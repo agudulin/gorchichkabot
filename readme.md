@@ -7,9 +7,9 @@
 
 ### Development
 
-1. Create `.env` file with `BOT_TOKEN` variable
+1. Create `.env` file with `BOT_TOKEN_DEV` variable
   ```sh
-  BOT_TOKEN=123456foobar
+  BOT_TOKEN_DEV=123456foobar
   ```
 
 2. Then run the bot locally
