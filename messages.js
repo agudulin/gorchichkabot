@@ -1,3 +1,8 @@
+const formatQuote = ({ quote, song, album }) => `
+${quote.title}
+
+_${song.title} (${album.title} ${album.year})_
+`
 const start = `
 дратути!
 
@@ -9,4 +14,4 @@ const help = `
 *так*: вернет случайную цитату из случайной композиции
 *ишо*: сделает то же самое
 `
-module.exports = { start, help }
+module.exports = { formatQuote, help, start }
