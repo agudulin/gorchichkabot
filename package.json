@@ -8,15 +8,14 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "forever": "^0.15.3",
     "gorchichka": "^0.3.4",
-    "telegraf": "^3.6.4"
+    "micro-bot": "^1.1.1"
   },
   "scripts": {
     "deploy": "now -e NODE_ENV=production",
-    "lint": "standard",
-    "start": "forever start src",
-    "test": "npm run lint"
+    "dev": "source .env && micro-bot -t ${BOT_TOKEN_DEV}",
+    "start": "source .env && micro-bot -d ${NOW_URL} -t ${BOT_TOKEN_PROD}",
+    "test": "standard"
   },
   "devDependencies": {
     "standard": "^8.6.0"
