@@ -9,7 +9,7 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "forever": "^0.15.3",
-    "gorchichka": "^0.3.3",
+    "gorchichka": "^0.3.4",
     "telegraf": "^3.6.4"
   },
   "scripts": {
