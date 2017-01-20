@@ -12,12 +12,12 @@
 
 1. Create `.env` file with `BOT_TOKEN_DEV` variable
   ```sh
-  BOT_TOKEN_DEV=123456foobar
+  BOT_TOKEN_DEV=123456:kanyewest
   ```
 
 2. Then run the bot locally
   ```sh
-  yarn start
+  yarn dev
   ```
 
 ### License
