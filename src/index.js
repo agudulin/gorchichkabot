@@ -1,3 +1,5 @@
+require('dotenv/config')
+
 const Telegraf = require('telegraf')
 const { Markup } = Telegraf
 const { getQuote } = require('gorchichka')

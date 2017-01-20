@@ -8,13 +8,14 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^4.0.0",
+    "forever": "^0.15.3",
     "gorchichka": "^0.3.3",
     "telegraf": "^3.6.4"
   },
   "scripts": {
     "deploy": "now -e NODE_ENV=production",
     "lint": "standard",
-    "start": "node -r dotenv/config src",
+    "start": "forever start src",
     "test": "npm run lint"
   },
   "devDependencies": {
