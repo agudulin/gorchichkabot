@@ -1,4 +1,3 @@
-require('dotenv/config')
 const { Composer, Markup } = require('micro-bot')
 const { getQuote } = require('gorchichka')
 const msg = require('./messages')
