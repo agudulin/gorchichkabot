@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "gorchichka": "^0.3.7",
-    "micro-bot": "^1.1.1"
+    "micro-bot": "^2.0.0"
   },
   "scripts": {
     "deploy": "now -e NODE_ENV=production",
