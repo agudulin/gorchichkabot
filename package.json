@@ -7,7 +7,7 @@
   "author": "Alexander Gudulin <alexandr.gudulin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "gorchichka": "^0.3.4",
+    "gorchichka": "^0.3.7",
     "micro-bot": "^1.1.1"
   },
   "scripts": {
@@ -17,6 +17,6 @@
     "test": "standard"
   },
   "devDependencies": {
-    "standard": "^8.6.0"
+    "standard": "^10.0.3"
   }
 }
